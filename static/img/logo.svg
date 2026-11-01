@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="lg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9DBB"/>
+      <stop offset="1" stop-color="#F06292"/>
+    </linearGradient>
+    <linearGradient id="lg-box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFE9F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#lg-bg)"/>
+  <circle cx="11.5" cy="12" r="3" fill="#3DDC84"/>
+  <path d="M52 7.2l1.5 3.3 3.3 1.5-3.3 1.5L52 16.8l-1.5-3.3-3.3-1.5 3.3-1.5z" fill="#FFF3F8"/>
+  <rect x="14" y="25" width="36" height="26" rx="6" fill="url(#lg-box)"/>
+  <rect x="11" y="17" width="42" height="11" rx="4.5" fill="#FFFFFF"/>
+  <rect x="28.5" y="17" width="7" height="34" fill="#FFC9DD"/>
+  <circle cx="22.5" cy="36.5" r="2.1" fill="#6B3B52"/>
+  <circle cx="41.5" cy="36.5" r="2.1" fill="#6B3B52"/>
+  <path d="M28.6 41.5c1.3 1.7 5.5 1.7 6.8 0" stroke="#6B3B52" stroke-width="1.9" stroke-linecap="round" fill="none"/>
+  <circle cx="17.5" cy="40.5" r="2.1" fill="#FF8FB1" opacity="0.55"/>
+  <circle cx="46.5" cy="40.5" r="2.1" fill="#FF8FB1" opacity="0.55"/>
+</svg>

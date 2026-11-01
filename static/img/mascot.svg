@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620">
+  <defs>
+    <linearGradient id="ms-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE9F0"/>
+      <stop offset="1" stop-color="#F3EEFF"/>
+    </linearGradient>
+    <linearGradient id="ms-box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDFE"/>
+      <stop offset="1" stop-color="#FFD9E8"/>
+    </linearGradient>
+    <filter id="ms-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#F06292" flood-opacity="0.18"/>
+    </filter>
+    <g id="ms-star">
+      <path d="M0 -12L3 -3 12 0 3 3 0 12 -3 3 -12 0 -3 -3Z"/>
+    </g>
+  </defs>
+
+  <path d="M280 22C425 2 538 112 538 258 538 428 438 598 280 598 122 598 22 428 22 258 22 112 135 2 280 22Z" fill="url(#ms-bg)" opacity="0.75"/>
+  <circle cx="102" cy="82" r="26" fill="#FFD3E2" opacity="0.7"/>
+  <circle cx="478" cy="72" r="18" fill="#B9F6CA" opacity="0.6"/>
+  <circle cx="62" cy="378" r="20" fill="#FFE9A8" opacity="0.6"/>
+  <circle cx="504" cy="248" r="14" fill="#FFD3E2" opacity="0.55"/>
+
+  <g filter="url(#ms-soft)" transform="rotate(-7 250 162)">
+    <rect x="90" y="58" width="320" height="208" rx="16" fill="#FFFFFF"/>
+    <path d="M90 96H410" stroke="#F6D6E4" stroke-width="2"/>
+    <circle cx="112" cy="77" r="6" fill="#FF8FB1"/>
+    <circle cx="132" cy="77" r="6" fill="#FFD166"/>
+    <circle cx="152" cy="77" r="6" fill="#3DDC84"/>
+    <rect x="110" y="114" width="150" height="12" rx="6" fill="#FFC9DD"/>
+    <rect x="110" y="142" width="200" height="8" rx="4" fill="#EFE3EE"/>
+    <rect x="110" y="160" width="170" height="8" rx="4" fill="#EFE3EE"/>
+    <rect x="110" y="178" width="140" height="8" rx="4" fill="#EFE3EE"/>
+    <rect x="304" y="140" width="86" height="76" rx="12" fill="#FFF0F6" stroke="#FFD3E2" stroke-width="2"/>
+    <path d="M324 178c6 8 26 8 32 0" stroke="#E884AB" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="334" cy="166" r="4" fill="#B76E90"/>
+    <circle cx="346" cy="166" r="4" fill="#B76E90"/>
+    <rect x="110" y="212" width="82" height="22" rx="11" fill="#3DDC84" opacity="0.9"/>
+  </g>
+
+  <path d="M332 266C356 306 334 334 306 352" stroke="#F06292" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10" fill="none"/>
+  <path d="M298 344l10 12 8-14z" fill="#F06292"/>
+
+  <ellipse cx="280" cy="560" rx="122" ry="14" fill="#F06292" opacity="0.12"/>
+  <g filter="url(#ms-soft)">
+    <rect x="210" y="534" width="34" height="18" rx="9" fill="#FFC9DD"/>
+    <rect x="316" y="534" width="34" height="18" rx="9" fill="#FFC9DD"/>
+    <rect x="118" y="468" width="54" height="18" rx="9" fill="#FFD9E8" transform="rotate(16 172 477)"/>
+    <rect x="382" y="420" width="54" height="18" rx="9" fill="#FFD9E8" transform="rotate(-48 388 429)"/>
+    <circle cx="428" cy="398" r="11" fill="#FFE9F0"/>
+    <rect x="170" y="380" width="220" height="160" rx="24" fill="url(#ms-box)"/>
+    <rect x="158" y="348" width="244" height="44" rx="14" fill="#FFFFFF"/>
+    <rect x="258" y="348" width="44" height="192" fill="#FFC9DD"/>
+    <circle cx="280" cy="370" r="13" fill="#FF8FB1"/>
+    <path d="M204 452q13 -15 26 0" stroke="#6B3B52" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M330 452q13 -15 26 0" stroke="#6B3B52" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M258 480c8 13 36 13 44 0" stroke="#6B3B52" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <circle cx="198" cy="486" r="9" fill="#FF8FB1" opacity="0.5"/>
+    <circle cx="362" cy="486" r="9" fill="#FF8FB1" opacity="0.5"/>
+  </g>
+
+  <g>
+    <path d="M46 542v-24a28 28 0 0 1 56 0v24z" fill="#3DDC84"/>
+    <circle cx="62" cy="522" r="4.5" fill="#FFFFFF"/>
+    <circle cx="86" cy="522" r="4.5" fill="#FFFFFF"/>
+    <path d="M58 502l-6-13M90 502l6-13" stroke="#3DDC84" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <use href="#ms-star" x="466" y="122" fill="#FFD166"/>
+  <use href="#ms-star" transform="translate(432 326) scale(0.8)" fill="#FFC9DD"/>
+  <use href="#ms-star" transform="translate(120 302) scale(0.7)" fill="#B9F6CA"/>
+  <use href="#ms-star" transform="translate(498 428) scale(0.9)" fill="#FFFFFF"/>
+  <use href="#ms-star" transform="translate(72 142) scale(0.6)" fill="#FFC9DD"/>
+  <circle cx="150" cy="330" r="4" fill="#FF8FB1" opacity="0.7"/>
+  <circle cx="456" cy="260" r="5" fill="#3DDC84" opacity="0.5"/>
+  <circle cx="392" cy="332" r="3.5" fill="#FFD166" opacity="0.8"/>
+</svg>
